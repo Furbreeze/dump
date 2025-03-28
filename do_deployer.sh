@@ -4,10 +4,6 @@
 # This assumes the token is stored with the key "token do".
 DIGITALOCEAN_TOKEN=$(secret-tool lookup token do)
 
-NAME=$1
-
-IMAGEHASH=$2
-
 # Deploy a new DigitalOcean droplet specifically configured to run the nuclei scanner.
 curl -X POST \
     -H "Content-Type: application/json" \ # Specifies that the request body is in JSON format.
