@@ -2,7 +2,7 @@ const { SESClient, SendEmailCommand } = require("@aws-sdk/client-ses");
 const { fromEnv } = require("@aws-sdk/credential-providers");
 
 const REGION = "us-east-2";
-const SENDER_EMAIL = "furbreeze_synack@proton.me";
+const SENDER_EMAIL = "";
 const BATCH_SIZE = 50; // AWS SES has a rate limit of 50 emails per second
 const DELAY_BETWEEN_BATCHES = 1000; // 1 second delay between batches
 
