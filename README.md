@@ -1,3 +1,3 @@
 # dump
 
-useful scripts and tidbits. lot's of gpt commenting. use at your own risk.
+useful scripts and tidbits. lot's of gpt commenting and vibe. use at your own risk.
