@@ -1,0 +1,17 @@
+{
+  "name": "burp_utils",
+  "version": "1.0.0",
+  "description": "things to make burp easier",
+  "main": "burp_query.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsx ./burp_query.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lowdb": "^7.0.1",
+    "tsx": "^4.19.3"
+  }
+}
